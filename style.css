@@ -1,0 +1,264 @@
+*{
+    margin: 0;            
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    background: #b3a47e;
+}
+
+main{
+    width: 100%;
+    height: 90%;
+    clear: both;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(#b4a787, #4c3b14);
+}
+
+section{
+    width: 40%;
+    height: 100%;
+}
+
+.section-1{
+    width: 60%;
+}
+
+.textarea-1{
+    width: 80%;
+    height: 70%;
+    display: block;
+    margin: auto;
+    box-shadow: 10px 10px 30px 15px black;
+    padding-top: 20px;
+    border-radius: 20px;
+    font-size: 25px;
+    resize: none;
+    border: 0;
+    outline: 0;
+}
+
+.terminos{
+    margin-left: 100px;
+    color: white;
+    padding: 5px;
+}
+
+
+
+.contenedor-botones{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-encriptar, .btn-desencriptar{
+    width: 20%;
+    height: 40px;
+    border-radius: 20px;
+    background: #b6ab93;
+    font-size: 20px;
+    cursor: pointer;
+    resize: none;
+    border: 0;
+    outline: 0;
+}
+
+.btn-encriptar:hover{
+    background: #0022ff;
+    transition: 1.5s;
+} 
+
+.btn-desencriptar:hover{
+    background: #0022ff;
+    transition: 1.5s;
+}
+
+
+
+.section-2{
+    width: 30%;
+    margin-right: 20px;
+    border-radius: 2px;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 10px 10px 30px 15px black;
+}
+
+.contenedor-muñeco{
+    width: 100%;
+    height: 60%;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 5px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.contenedor-anuncio{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+}
+
+.contenedor-parrafo{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+}
+
+.ocultar{
+    display: none;
+}
+
+.contenedor-resultado{
+    width: 100%;
+    height: 70%;
+    box-sizing: border-box;
+    background: white;
+    border-radius: 20px;
+    transition: 1.3s;
+}
+
+.contenedor-resultado h1{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.contenedor-resultado h1 p{
+    padding: 40px;
+}
+
+.contenedor-copiar{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.copiar{
+    width: 35%;
+    height: 40px;
+    border-radius: 20px;
+    background: #b6ab93;
+    font-size: 20px;
+    cursor: pointer;
+    resize: none;
+    border: 0;
+    outline: 0;
+}
+
+.copiar:hover{
+    background: #0022ff;
+    transition: 1.5s;
+} 
+
+
+footer{
+    width: 100%;
+    height: 50px;
+    background: black;
+    text-align: center;
+    padding: 40px;
+}
+
+.copyright{
+    color: white;
+    font-size: 13px;
+    margin: 20px;
+}
+
+
+/*web para dispositivos*/
+@media (max-width: 768px) {
+    header{
+       text-align: center;
+       padding-top: 5px;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    section {
+        width: 100%;
+    }
+
+    .section-1{
+        width: 100%;
+        margin-right: 0;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .terminos{
+        margin-left: 10px;
+        padding: 5px;
+    }
+
+    .contenedor-botones{
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .btn-encriptar, .btn-desencriptar{
+        width: 30%;
+        height: 40px;
+        border-radius: 20px;
+        background: #b6ab93;
+        font-size: 20px;
+        cursor: pointer;
+        resize: none;
+        border: 0;
+        outline: 0;
+    }
+
+    .btn-encriptar:hover{
+        background: #0022ff;
+        transition: 1.5s;
+    } 
+    
+    .btn-desencriptar:hover{
+        background: #0022ff;
+        transition: 1.5s;
+    }
+
+    .section-2 {
+        width: 80%;
+        margin-right: 0;
+        margin-left: 10%;
+    }
+
+    .contenedor-resultado h1{
+        text-align: center;
+    }
+
+    .copiar {
+        width: 30%;
+        height: 40px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        background: #b6ab93;
+        font-size: 20px;
+        cursor: pointer;
+        resize: none;
+        border: 0;
+        outline: 0;
+    }
+
+    .copiar:hover{
+        background: #0022ff;
+        transition: 1.5s;
+    }
+    
+}
